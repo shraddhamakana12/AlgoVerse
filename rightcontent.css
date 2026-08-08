@@ -1,0 +1,280 @@
+.right-content{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/* ==========================================
+        MAIN VISUALIZER CARD
+========================================== */
+
+.visualizer-card{
+
+    width:430px;
+    margin-top:40px;
+    background:#FFFFFF;
+
+    border-radius:30px;
+
+    padding:22px;
+
+    border:2px solid #F6DCDC;
+
+    box-shadow:
+        0px 12px 35px rgba(0,0,0,0.08);
+
+}
+
+
+/* ==========================================
+        CARD HEADER
+========================================== */
+
+.card-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+
+/* ==========================================
+        WINDOW BUTTONS
+========================================== */
+
+.window-buttons{
+
+    display:flex;
+    gap:8px;
+
+}
+
+.circle{
+
+    width:10px;
+    height:10px;
+
+    border-radius:50%;
+
+}
+
+.red{
+    background:#F8A3A8;
+}
+
+.yellow{
+    background:#FFD7A3;
+}
+
+.green{
+    background:#BEEFC8;
+}
+
+
+/* ==========================================
+        FILE NAME
+========================================== */
+
+.file-name{
+
+    background:#F5F5F5;
+
+    color:#7A7A7A;
+
+    padding:8px 14px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:500;
+
+}
+
+
+/* ==========================================
+        VISUALIZER SCREEN
+========================================== */
+
+.visualizer-screen{
+
+    height:260px;
+
+    background:#FBF8F3;
+
+    border-radius:24px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-end;
+
+    gap:18px;
+
+    padding:22px;
+
+}
+
+
+/* ==========================================
+        BARS
+========================================== */
+
+.bar{
+
+    width:30px;
+
+    border-radius:18px 18px 0 0;
+
+    transition:0.3s;
+
+}
+
+.bar:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* Heights */
+
+.bar1{
+
+    height:60px;
+    background:#CDB8FF;
+
+}
+
+.bar2{
+
+    height:145px;
+    background:#CDB8FF;
+
+}
+
+.bar3{
+
+    height:75px;
+    background:#CDB8FF;
+
+}
+
+.bar4{
+
+    height:185px;
+    background:#FF748F;
+
+}
+
+.bar5{
+
+    height:105px;
+    background:#FFC48E;
+
+}
+
+.bar6{
+
+    height:90px;
+    background:#CDB8FF;
+
+}
+
+.bar7{
+
+    height:170px;
+    background:#CDB8FF;
+
+}
+
+.bar8{
+
+    height:125px;
+    background:#CDB8FF;
+
+}
+
+
+/* ==========================================
+        INFO PILLS
+========================================== */
+
+.info-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin:22px 0;
+
+}
+
+.info-pill{
+
+    padding:10px 22px;
+
+    border-radius:25px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.peach{
+
+    background:#FFDCC5;
+    color:#A8622D;
+
+}
+
+.green-pill{
+
+    background:#D5F5E4;
+    color:#237D56;
+
+}
+
+.purple{
+
+    background:#E8DBFF;
+    color:#7050BC;
+
+}
+
+
+/* ==========================================
+        CODE BOX
+========================================== */
+
+.code-box{
+
+    background:#2B233A;
+
+    border-radius:22px;
+
+    padding:22px;
+
+}
+
+.code-box pre{
+
+    color:#FFFFFF;
+
+    font-size:14px;
+
+    line-height:1.8;
+
+    font-family:"Courier New", monospace;
+
+    white-space:pre-wrap;
+
+    overflow-x:auto;
+
+}

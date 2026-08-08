@@ -1,0 +1,160 @@
+.page2{
+    padding: 50px 60px 70px;
+}
+
+
+/* ==========================================
+        PAGE 2 HEADING
+========================================== */
+
+.page2 h2{
+    font-family:"Poppins",sans-serif;
+
+    font-size:36px;
+    font-weight:700;
+    line-height:1.15;
+
+    color:#2D2140;
+
+    width:65%;
+
+    margin-bottom:20px;
+}
+
+.page2 h2 span{
+    color:#FF748F;
+}
+.features-grid{
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:25px;
+    align-items: center;
+    margin: -30px auto 0;
+}
+
+.page2 h2{
+    grid-column: 1/-1;
+}
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6{
+min-height: 195px;
+padding:25px;
+border-radius:35px;
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+transition: 0.3s;
+}
+.grid1:hover,
+.grid2:hover,
+.grid3:hover,
+.grid4:hover,
+.grid5:hover,
+.grid6:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,0.07);
+
+}
+
+.grid1 i,
+.grid2 i,
+.grid3 i,
+.grid4 i,
+.grid5 i,
+.grid6 i
+{
+    width: 46px;
+    height: 46px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 18px;
+    color: #f38a9a;
+    margin-bottom: 20px;
+
+}
+
+.grid1 h3,
+.grid2 h3,
+.grid3 h3,
+.grid4 h3,
+.grid5 h3,
+.grid6 h3{
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    color:#2D2140;
+
+    margin-bottom:8px;
+
+}
+
+.grid1{
+    background:#FFDDBF;
+}
+
+.grid2{
+    background:#C7F1DE;
+}
+
+
+/* Multi-Language Code */
+
+.grid3{
+    background:#E5DAF6;
+}
+
+
+/* XP Streaks Quests */
+
+.grid4{
+    background:#C7F1DE;
+}
+
+
+/* Quizzes That Teach */
+
+.grid5{
+    background:#FFDDBF;
+}
+
+
+/* Progress Dashboard */
+
+.grid6{
+    background:#F2EFE5;
+}
+.grid1 p,
+.grid2 p,
+.grid3 p,
+.grid4 p,
+.grid5 p,
+.grid6 p{
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:14px;
+
+    font-weight:400;
+
+    line-height:1.5;
+
+    color:#66606D;
+
+    max-width:330px;
+
+}
