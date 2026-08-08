@@ -18,7 +18,13 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="global.css">
+     <link rel="stylesheet" href="navbar.css">
+     <link rel="stylesheet" href="hero.css">
+     <link rel="stylesheet" href="page2.css">
+     <link rel="stylesheet" href="leftcontent.css">
+     <link rel="stylesheet" href="rightcontent.css">
 </head>
 
 <body>
@@ -100,13 +106,135 @@
                 <p>Programming Languages</p>
             </div>
 
+    </div>
 </div>
+    
+    <!-- RIGHT SIDE -->
+
+    <div class="right-content">
+
+        <div class="visualizer-card">
+
+            <!-- Header -->
+
+            <div class="card-header">
+
+                <div class="window-buttons">
+
+                    <span class="circle red"></span>
+                    <span class="circle yellow"></span>
+                    <span class="circle green"></span>
+
+                </div>
+
+                <div class="file-name">
+
+                    bubbleSort.js
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Visualizer -->
+
+            <div class="visualizer-screen">
+
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+                <div class="bar bar4"></div>
+                <div class="bar bar5"></div>
+                <div class="bar bar6"></div>
+                <div class="bar bar7"></div>
+                <div class="bar bar8"></div>
+
+            </div>
+
+
+
+            <!-- Pills -->
+
+            <div class="info-row">
+
+                <div class="info-pill peach">
+
+                    14 Comparisons
+
+                </div>
+
+                <div class="info-pill green-pill">
+
+                    6 Swaps
+
+                </div>
+
+                <div class="info-pill purple">
+
+                    O(n²)
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Code -->
+
+            <div class="code-box">
+
+<pre>
+for(i=0;i&lt;n-1;i++){
+    for(j=0;j&lt;n-i-1;j++){
+        if(arr[j]&gt;arr[j+1]){
+            swap(arr[j],arr[j+1]);  
+        }
+
+    }
+}
+</pre>
+
+            </div>
+
         </div>
 
+    </div>
 
 
 </main>
 
+<div class="page2">
+    <h2>Everything you need to go from <span>hello world</span> to interveiw ready</h2>
+</div>
+<div class="features-grid">
+    <div class="grid1"><i class="fa-solid fa-play"></i>
+        <h3>Interactive Visualizers</h3>
+        <p>Every algorithm is a live animation you can pause,step and replay.</p>
+    </div>
+
+    <div class="grid2"><i class="fa-solid fa-wand-magic-sparkles"></i>
+    <h3>Guided Dry Runs</h3>
+    <p>Watch each variable change, line by line, with plane-English Explanations.</p>
+    </div>
+    <div class="grid3"><i class="fa-solid fa-code"></i>
+    <h3>Multi-Language Code</h3>
+    <p>Java, C++ and Python side by side for every lesson.</p>
+    </div>
+    <div class="grid4"><i class="fa-solid fa-fire-flame-curved"></i>
+    <h3>XP.Streaks.Quests</h3>
+    <p>Duolingo-style motivation that keeps you coming back</p>
+    </div>
+    <div class="grid5"><i class="fa-solid fa-trophy"></i>
+    <h3>Quizes That Teach</h3>
+    <p>Timed Challenges with instant feedback and worked solutions. </p>
+    </div>
+    <div class="grid6"><i class="fa-solid fa-chart-gantt"></i>
+    <h3>Progress Dashboard</h3>
+    <p>See mastery per topic, weekly hours, and interview-readiness</p>
+    
+    </div>
+</div>
 </body>
 
 </html>
