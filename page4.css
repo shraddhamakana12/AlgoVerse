@@ -1,0 +1,417 @@
+/* ================================
+   RESET
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ================================
+   PAGE
+================================ */
+
+body {
+    font-family: "DM Sans", sans-serif;
+
+    background: #faf7ed;
+
+    color: #29253f;
+}
+
+
+/* ================================
+   MAIN DSA SECTION
+================================ */
+
+.dsa-section {
+    min-height: 100vh;
+
+    padding: 40px 13.5% 80px;
+
+    background: #faf7ed;
+}
+
+
+/* ================================
+   HEADER
+================================ */
+
+.section-header {
+    display: flex;
+
+    align-items: flex-end;
+
+    justify-content: space-between;
+
+    margin-bottom: 34px;
+}
+
+
+/* ================================
+   TRACK BADGE
+================================ */
+
+.track-badge {
+    display: inline-block;
+
+    padding: 5px 12px;
+
+    margin-bottom: 14px;
+
+    background: #ddc6f5;
+
+    color: #65468b;
+
+    border-radius: 12px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+
+/* ================================
+   MAIN HEADING
+================================ */
+
+.heading-area h1 {
+    font-family: "Nunito", sans-serif;
+
+    font-size: 36px;
+
+    line-height: 1;
+
+    font-weight: 900;
+
+    letter-spacing: -1.4px;
+
+    color: #29253f;
+
+    margin-bottom: 13px;
+}
+
+
+/* ================================
+   DESCRIPTION
+================================ */
+
+.heading-area p {
+    font-size: 16px;
+
+    color: #777381;
+
+    letter-spacing: 0.1px;
+}
+
+
+/* ================================
+   OPEN SORTING LINK
+================================ */
+
+.open-sorting {
+    text-decoration: none;
+
+    color: #3c3748;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin-bottom: 7px;
+}
+
+.open-sorting span {
+    font-size: 22px;
+
+    margin-left: 12px;
+
+    vertical-align: -2px;
+}
+
+
+/* ================================
+   CARDS GRID
+================================ */
+
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+
+/* ================================
+   CARD
+================================ */
+
+.card {
+    height: 168px;
+
+    position: relative;
+
+    padding: 24px 25px;
+
+    background: #fffefa;
+
+    border: 1px solid #e9e2d9;
+
+    border-radius: 34px;
+
+    box-shadow:
+        0 5px 12px rgba(63, 52, 39, 0.025),
+        0 1px 3px rgba(63, 52, 39, 0.03);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+/* Hover effect */
+
+.card:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(63, 52, 39, 0.08);
+}
+
+
+/* Locked card */
+
+.card.locked {
+    background: #fcfaf5;
+}
+
+
+/* ================================
+   CARD ICON
+================================ */
+
+.card-icon {
+    width: 47px;
+    height: 47px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 17px;
+
+    font-weight: 800;
+}
+
+
+/* Sorting */
+
+.sorting-icon {
+    background: #ffd3a9;
+
+    color: #a75b2e;
+
+    flex-direction: column;
+
+    font-size: 11px;
+
+    line-height: 11px;
+}
+
+
+/* Searching */
+
+.searching-icon {
+    background: #a9ead5;
+
+    color: #197d67;
+
+    font-size: 24px;
+}
+
+
+/* Arrays */
+
+.arrays-icon {
+    background: #e4d6f7;
+
+    color: #80679e;
+
+    font-size: 22px;
+}
+
+
+/* Linked List */
+
+.linked-icon {
+    background: #d6f2e7;
+
+    color: #4c8a75;
+
+    font-size: 22px;
+}
+
+
+/* Stack */
+
+.stack-icon {
+    background: #ffe3c9;
+
+    color: #9b7150;
+
+    font-size: 22px;
+}
+
+
+/* Queue */
+
+.queue-icon {
+    background: #f4eee4;
+
+    color: #81796f;
+
+    font-size: 22px;
+}
+
+
+/* ================================
+   STATUS BADGE
+================================ */
+
+.status {
+    position: absolute;
+
+    top: 25px;
+    right: 25px;
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    background: #f3efe7;
+
+    color: #969088;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.2px;
+}
+
+
+/* Open status */
+
+.status.open {
+    background: #e2f4e9;
+
+    color: #557b64;
+}
+
+
+/* ================================
+   CARD TITLE
+================================ */
+
+.card h2 {
+    font-family: "Nunito", sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 900;
+
+    color: #332f43;
+
+    letter-spacing: -0.5px;
+
+    margin-bottom: 7px;
+}
+
+
+/* Locked title */
+
+.card.locked h2 {
+    color: #8c8990;
+}
+
+
+/* ================================
+   CARD DESCRIPTION
+================================ */
+
+.card p {
+    color: #85808a;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+}
+
+
+/* Locked description */
+
+.card.locked p {
+    color: #99959b;
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 1100px) {
+
+    .dsa-section {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .dsa-section {
+        padding: 30px 20px 70px;
+    }
+
+    .section-header {
+        display: block;
+    }
+
+    .open-sorting {
+        display: inline-block;
+
+        margin-top: 25px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .heading-area h1 {
+        font-size: 31px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .card {
+        height: 160px;
+
+        border-radius: 27px;
+    }
+
+    .heading-area h1 {
+        font-size: 28px;
+    }
+
+}

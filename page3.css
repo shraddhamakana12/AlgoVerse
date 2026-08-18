@@ -1,0 +1,289 @@
+/* =========================================================
+   PAGE 3 - PROGRAMMING FUNDAMENTALS
+   ========================================================= */
+
+.fundamentals-page{
+    width:100%;
+    min-height:100vh;
+    padding:35px 60px 60px;
+    background:#F8EFE4;
+}
+
+
+/* =========================================================
+   FUNDAMENTALS HEADER
+   ========================================================= */
+
+.fundamentals-page .fundamentals-header{
+    max-width:1120px;
+    margin:0 auto 35px;
+    position:relative;
+}
+
+
+.fundamentals-page .fundamentals-header .track-badge{
+    display:inline-block;
+    background-color:#FFD0A8;
+    color:#70451F;
+
+    padding:4px 10px;
+
+    border-radius:30px;
+
+    font-size:12px;
+    font-weight:600;
+
+    margin-bottom:10px;
+}
+
+
+.fundamentals-page .fundamentals-header h1{
+    font-family:"Poppins",sans-serif;
+
+    font-size:32px;
+    font-weight:700;
+
+    color:#2D2140;
+
+    margin-bottom:8px;
+
+    line-height:1.2;
+}
+
+
+.fundamentals-page .fundamentals-header p{
+    font-family:"Poppins",sans-serif;
+
+    font-size:16px;
+    font-weight:400;
+
+    color:#6F6878;
+
+    margin-bottom:0;
+
+    max-width:600px;
+
+    line-height:1.5;
+}
+ 
+
+.fundamentals-page .fundamentals-header a{
+    font-family:"Poppins",sans-serif;
+
+    font-size:14px;
+    font-weight:600;
+
+    color:#2D2140;
+
+    text-decoration:none;
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    position:absolute;
+    right:0;
+    bottom:5px;
+
+    transition:all 0.3s ease;
+}
+
+
+.fundamentals-page .fundamentals-header a:hover{
+    transform:translateX(5px);
+} 
+/* =========================================================
+   PATTERNS GRID
+   ========================================================= */
+
+.fundamentals-page .patterns-grid{
+    max-width:1120px;
+
+    margin:0 auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:18px;
+}
+
+
+/* =========================================================
+   PATTERN CARD
+   ========================================================= */
+
+.fundamentals-page .pattern-card{
+    background:#FFFFFF;
+
+    border-radius:28px;
+
+    padding:20px;
+
+    min-height:205px;
+
+    box-shadow:0 8px 25px rgba(45,33,64,0.05);
+
+    transition:all 0.3s ease;
+
+    cursor:pointer;
+} 
+
+
+ .fundamentals-page .pattern-card:hover{
+    transform:translateY(-5px);
+
+    box-shadow:0 14px 30px rgba(45,33,64,0.10);
+} 
+
+
+/* =========================================================
+   PATTERN PREVIEW
+   ========================================================= */
+
+.fundamentals-page .pattern-preview{
+    width:100%;
+    height:100px;
+
+    background:#F4F0E7;
+
+    border-radius:22px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-bottom:14px;
+
+    overflow:hidden;
+}
+
+
+/* Pattern text / stars inside preview */
+
+fundamentals-page .pattern-preview pre{
+    font-family:"Courier New",monospace;
+
+    font-size:12px;
+
+    line-height:1.35;
+
+    color:#5A5265;
+
+    margin:0;
+
+    text-align:center;
+}
+
+
+/* =========================================================
+   PATTERN INFORMATION
+   ========================================================= */
+
+.fundamentals-page .pattern-info{
+    width:100%;
+}
+
+
+.fundamentals-page .pattern-title{
+    display:flex;
+
+    justify-content:space-between;
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:5px;
+}
+
+
+.fundamentals-page .pattern-title h3{
+    font-family:"Poppins",sans-serif;
+
+    font-size:17px;
+    font-weight:700;
+
+    color:#2D2140;
+
+    margin:0;
+}
+
+
+.fundamentals-page .pattern-level{
+    background:#C7F0DF;
+
+    color:#237D56;
+
+    padding:4px 9px;
+
+    border-radius:20px;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:10px;
+    font-weight:600;
+
+    white-space:nowrap;
+}
+
+
+.fundamentals-page .pattern-description{
+    font-family:"Poppins",sans-serif;
+
+    font-size:13px;
+    font-weight:400;
+
+    color:#77717D;
+
+    line-height:1.4;
+
+    margin:0;
+} 
+
+
+/* =========================================================
+   RESPONSIVE DESIGN
+   ========================================================= */
+
+ @media (max-width:1000px){
+
+    .fundamentals-page{
+        padding:30px 40px 50px;
+    }
+
+    .fundamentals-page .patterns-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .fundamentals-page .fundamentals-header a{
+        position:static;
+
+        margin-top:15px;
+
+        display:inline-flex;
+    }
+}
+
+
+@media (max-width:650px){
+
+    .fundamentals-page{
+        padding:25px 20px 40px;
+    }
+
+    .fundamentals-page .patterns-grid{
+        grid-template-columns:1fr;
+    }
+
+    .fundamentals-page .fundamentals-header h1{
+        font-size:27px;
+    }
+
+    .fundamentals-page .fundamentals-header p{
+        font-size:14px;
+    }
+
+    .fundamentals-page .pattern-card{
+        min-height:200px;
+    }
+} 
